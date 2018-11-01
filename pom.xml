@@ -6,5 +6,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>programmingbit-services</module>
+  	<module>programmingbit-client</module>
   </modules>
 </project>
