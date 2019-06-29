@@ -1,12 +1,12 @@
 package com.programmingbit.algotour.service.impl.sort;
 
-import com.programmingbit.algotour.service.Sort;
+import com.programmingbit.algotour.service.AbstractSort;
 
 /**
  * @author somdutt
  *
  */
-public class InsertionSort extends Sort {
+public class InsertionSort extends AbstractSort {
 
 	@Override
 	public void sort(Integer[] arr) {
@@ -22,13 +22,4 @@ public class InsertionSort extends Sort {
 		}
 
 	}
-	
-	public static void main(String[] args) {
-		InsertionSort sort = new InsertionSort();
-		Integer[] arr = new Integer[]{3,8,9,1,3,4,7};
-		sort.printArray(arr);
-		sort.sort(arr);
-		sort.printArray(arr);
-	}
-
 }
